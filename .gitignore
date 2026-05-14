@@ -1,0 +1,8 @@
+*.class
+*.jar
+/target/
+conexion.properties
+*.iml
+.idea/
+.classpath
+.project
