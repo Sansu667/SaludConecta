@@ -12,8 +12,8 @@ public class ConexionBaseDatos {
 
     private static final String URL_CONEXION = 
         "jdbc:mysql://localhost:3306/saludconecta?useSSL=false&serverTimezone=UTC";
-    private static final String USUARIO_BD   = "saludconecta";
-    private static final String CONTRASENA_BD = "saludconecta123";
+    private static final String USUARIO_BD   = "***";
+    private static final String CONTRASENA_BD = "";
 
     private static Connection conexionActiva = null;
 

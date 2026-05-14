@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SaludConecta - Main",
+            "request": "launch",
+            "mainClass": "co.saludconecta.principal.Main",
+            "projectName": "saludconecta-web",
+            "preLaunchTask": "Compilar Java",
+            "classPaths": [
+                "${workspaceFolder}/target/classes",
+                "${env:HOME}/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar",
+                "${env:HOME}/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar",
+                "${env:HOME}/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar"
+            ]
+        }
+    ]
+}
