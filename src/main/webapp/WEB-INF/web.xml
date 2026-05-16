@@ -25,6 +25,15 @@
         <url-pattern>/citas</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>MedicoServlet</servlet-name>
+        <servlet-class>co.saludconecta.servlet.MedicoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MedicoServlet</servlet-name>
+        <url-pattern>/medicos</url-pattern>
+    </servlet-mapping>
+
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
